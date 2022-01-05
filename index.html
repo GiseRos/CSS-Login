@@ -9,22 +9,27 @@
 </head>
 <body>
     <article>
-        <img src="./assets/user.png" alt="icono de usuario">
+        <form action="/" method="post">
+    
+            <img src="./assets/user.png" alt="icono de usuario">
         
-        <h2>Iniciar sesión</h2>
-
-        <form action="/" method="post"></form>
+            <h2>Iniciar sesión</h2>
+        
             <label>
                 <input type="email" name="email" id="email" placeholder="E-mail">
             </label>
-<br>
+            <br>
             <label>
                 <input type="password" name="password" id="password" placeholder="Password">
             </label>
-<br>
-            <a class="boton" href="https://www.google.com/">Enviar</a>
-<br>    
-            <h5>Olvidé mi contraseña</h5>          
+            <br>
+            <a href="https://www.google.com/"><input type="button" class="entrar" id="entrar" value="Entrar">
+            </a>         
+    
+            <a href="https://www.google.com/"><input type="button" class="forgot" id="forgot" value="Olvidé mi contraseña">
+            </a>
+            
+        </form>
     </article>
 </body>
 </html>
